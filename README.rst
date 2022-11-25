@@ -2,7 +2,7 @@ Benchmark repository for ResNet fitting on classification
 =====================
 |Build Status| |Python 3.6+| |TensorFlow 2.8+| |PyTorch 1.10+| |PyTorch-Lightning 1.6+|
 
-BenchOpt is a package to simplify and make more transparent and
+Benchopt is a package to simplify and make more transparent and
 reproducible the comparisons of optimization algorithms.
 This benchmark is dedicated to solver of the ResNet classification fitting problem:
 
