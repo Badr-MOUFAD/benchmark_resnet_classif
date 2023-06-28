@@ -122,7 +122,7 @@ with safe_import_context() as import_ctx:
                                 internal_momentum.mul_(self.la_alpha).add_(
                                     1.0 - self.la_alpha,
                                     param_state["cached_mom"]
-                                )
+                            )
                             param_state["cached_mom"] = \
                                 self.optimizer.state[p]["momentum_buffer"]
                         elif self.pullback_momentum == "reset":
